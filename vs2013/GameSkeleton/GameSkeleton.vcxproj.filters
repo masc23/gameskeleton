@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{3b0f8438-bb64-44dd-ab6e-820fb21f5c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{5977757a-2d30-4338-9b70-1e67ed2163f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\gamestates">
+      <UniqueIdentifier>{90176566-3172-49a5-bc5f-f276f816dc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\gamestates">
+      <UniqueIdentifier>{fb7afbe7-94f4-4560-9061-aadbc875f874}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\core\Game.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\Timer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\gamestates\Gamestate.h">
+      <Filter>Header Files\core\gamestates</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\gamestates\EmptyGamestate.h">
+      <Filter>Header Files\core\gamestates</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\Game.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\Timer.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\gamestates\EmptyGamestate.cpp">
+      <Filter>Source Files\core\gamestates</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
